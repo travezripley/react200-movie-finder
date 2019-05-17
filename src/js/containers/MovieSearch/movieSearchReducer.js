@@ -9,7 +9,7 @@ export default function MovieSearchReducer(state = defaultState, action) {
   const { type, payload } = action;
 
   switch (type) {
-    case "UPDATE_MOVIE_SEARCH ": {
+    case "UPDATE_MOVIE_SEARCH": {
       return {
         ...state,
         movie: payload.movie
@@ -22,7 +22,7 @@ export default function MovieSearchReducer(state = defaultState, action) {
       };
     }
 
-    case "FETCH_MOVIES_FULFULLED": {
+    case "FETCH_MOVIES_FULFILLED": {
       return {
         movie: "",
         lineItems: action.payload.data
@@ -37,6 +37,7 @@ export default function MovieSearchReducer(state = defaultState, action) {
         error: true
       };
     }
+
     default: {
       return state;
     }

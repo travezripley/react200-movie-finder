@@ -1,10 +1,10 @@
 import { connect } from "react-redux";
 import MovieDetailContainer from "./MovieDetailContainer";
 
-function mapStoretoProps(store) {
+function mapStoreToProps(store) {
   return {
     lineItems: store.search.lineItems
   };
 }
 
-export default connect(mapStoretoProps)(MovieDetailContainer);
+export default connect(mapStoreToProps)(MovieDetailContainer);

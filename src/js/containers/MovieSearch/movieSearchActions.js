@@ -10,6 +10,6 @@ export function updateMovieSearch(movie) {
 export function fetchMovies(value) {
   return {
     type: "FETCH_MOVIES",
-    payload: axios.get("/api", { params: { s: `{$value}` } })
+    payload: axios.get("/api", { params: { s: `${value}` } })
   };
 }
