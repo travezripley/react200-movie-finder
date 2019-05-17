@@ -16,6 +16,7 @@ const key = process.env.API_KEY;
 app.get("/api", function(req, res) {
 
   const cacheS = {};
+  var s;
 
 
  if (!(req.query.s in cacheS) && req.query.s !== undefined) {
