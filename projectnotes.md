@@ -22,4 +22,9 @@
 
 \* tests to be written *nightmare
 
-\* 
+\* tests pass (x5 written so far)
+\*pushed to github
+
+\*circle CI implemented
+
+\*deployed to heroku 
