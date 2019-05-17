@@ -14,10 +14,11 @@ const key = process.env.API_KEY;
 
 
 app.get("/api", function(req, res) {
-  const cacheS = {};
-  var s;
 
-  if (!(req.query.s in cacheS) && req.query.s !== undefined) {
+  const cacheS = {};
+
+
+ if (!(req.query.s in cacheS) && req.query.s !== undefined) {
     axios
     .get('http://www.omdbapi.com', { params: { apikey: key, s: req.query.s, plot: 'full', type: 'movie' }})
     .then(function(response){

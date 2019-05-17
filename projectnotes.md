@@ -17,3 +17,9 @@
 \* Added BebasNeue Typeface
 
 \* code up the server, learn it better for client side and server side req
+
+\*app rendering
+
+\* tests to be written *nightmare
+
+\* 
