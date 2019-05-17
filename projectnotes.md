@@ -6,7 +6,7 @@
 
 \* MovieSearch(Container)-(*index.js,  *MovieSearchActions, *MovieSearchContainer, *MovieSearchReducer)
 
-\* MovieDetails(Container)-(*index.js, MovieDetailContainer)
+\* MovieDetails(Container)-(*index.js, *MovieDetailContainer)
 
 \* NPM - (axios, dotenv added)
 
@@ -15,3 +15,5 @@
 \* Working on (*MovieSearchReducer, MovieSearchContainer, MovieSearchActions
 
 \* Added BebasNeue Typeface
+
+\* code up the server, learn it better for client side and server side req
