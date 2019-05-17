@@ -26,5 +26,5 @@
 \*pushed to github
 
 \*circle CI implemented
-
+    
 \*deployed to heroku 
