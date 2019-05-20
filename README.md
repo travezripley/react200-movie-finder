@@ -247,3 +247,11 @@ To submit this project for instructor evaluation, please do the following:
 Once you have done the above, [Submit your project](https://goo.gl/forms/wx8DLSus7s88lk043)
 
 ##
+
+#Site deployed to Heroku at the following URL
+
+https://tsr-react200-movie-finder.herokuapp.com/
+
+#Thank you for taking the time to look at my projects,
+
+#Also please follow my progress on youtube: https://www.youtube.com/channel/UCXv4p-lDYeWXPlnoRFYCSUg
